@@ -22,10 +22,5 @@ public class SaludoController {
 		return "index";
 	}
 	
-	@GetMapping("/form")
-    public String showUserForm(Model model) throws Exception{
-		Persona p=new Persona();
-        model.addAttribute("persona", p);
-        return "formulario";
     }
 }
